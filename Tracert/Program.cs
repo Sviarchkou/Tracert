@@ -41,8 +41,9 @@ class Program
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Error: {ex.Message}");
+            Console.WriteLine($"Error: {ex.Message}");            
         }
+        Console.ReadKey();
     }
 
     static void TraceRoute(IPAddress destination)
